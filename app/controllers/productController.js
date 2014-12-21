@@ -1,3 +1,4 @@
+//controller for fetching data and updating 
 app.controller('productController', function ($scope,$stateParams, productServFact){
     $scope.products = productServFact.getProudcts();
     var prodctId = parseInt($stateParams.id);   

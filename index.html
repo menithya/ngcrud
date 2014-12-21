@@ -1,30 +1,56 @@
 <!doctype html> <!-- changed doctype as per bootstrap's documentation -->
 <html data-ng-app="assignment" lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>ng Curd</title>
+    <meta charset="utf-8">
+    <title>ng Curd</title>
 
-	<link type="text/css" rel="stylesheet" href='css/bootstrap.min.css' />
-	<link type="text/css" rel="stylesheet" href='css/crud.css' />
+    <link type="text/css" rel="stylesheet" href='css/bootstrap.min.css' />
+    <link type="text/css" rel="stylesheet" href='css/crud.css' />
 
 </head>
 <body>
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Brand</a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Nithya</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<!-- this is the default view (required) -->
-	<div ui-view></div>
+    <!-- this is the default view (required) -->
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    
 
-	<script type="text/javascript" src="Scripts/jquery.min.js"></script>
-	<script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
-	<script type="text/javascript" src="Scripts/angular.js"></script>
-	<script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
     <script src='https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js'></script>
-	<script type="text/javascript" src="Scripts/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-ui-router.min.js"></script>
 
-	<script type="text/javascript" src="app/app.js"></script>
-	<script type="text/javascript" src="app/services/services.js"></script>
-	<script type="text/javascript" src="app/controllers/productController.js"></script>
-	<script type="text/javascript" src="app/controllers/editcontroller.js"></script>
-	
-	<script type="text/javascript" src="app/directives/directives.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/services/services.js"></script>
+    <script type="text/javascript" src="app/controllers/productController.js"></script>
+    <script type="text/javascript" src="app/controllers/editcontroller.js"></script>
+    
+    <script type="text/javascript" src="app/directives/directives.js"></script>
 </body>
 </html>
