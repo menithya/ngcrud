@@ -1,0 +1,28 @@
+{
+	"products":[
+	  {
+	  	"id":"1",
+	  	"caps":"puma",
+	  	"qty":"12",
+	  	"price":"$2"
+	  },
+	  {
+	  	"id":"2",
+	  	"caps":"puma",
+	  	"qty":"12",
+	  	"price":"$2"
+	  },
+	  {
+	  	"id":"3",
+	  	"caps":"puma",
+	  	"qty":"12",
+	  	"price":"$2"
+	  },
+	  {
+	  	"id":"4",
+	  	"caps":"puma",
+	  	"qty":"12",
+	  	"price":"$2"
+	  }
+	]
+}
