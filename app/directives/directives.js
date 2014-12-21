@@ -15,18 +15,6 @@ app.directive("editDir",function(){
             }
         },
         contorller:function(scope){
-            $scope.prodcuts;
-
         }
-    }
-});
-
-
- app.directive('myDirective', function() {
-    return {
-        scope: { someCtrlFn: '&callbackFn' },
-        link: function(scope, element, attrs) {
-            scope.someCtrlFn({arg1: 22});
-        },
     }
 });

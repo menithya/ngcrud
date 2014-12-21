@@ -1,9 +1,9 @@
 <div class="container"> 
 
 	<div class="row">
-		<div class="col-md-2"><b>>Caps</b></div>
-		<div class="col-md-2">Qty</div>
-		<div class="col-md-2">Price</div>
+		<div class="col-md-2"><b>Caps</b></div>
+		<div class="col-md-2"><b>Qty</b></div>
+		<div class="col-md-2"><b>Price</b></div>
 	</div>
 
 	<ul>
@@ -12,7 +12,7 @@
 				<div class="col-md-2">{{product.caps}}</div>
 				<div class="col-md-2">{{product.qty}}</div>
 				<div class="col-md-2">{{product.price}}</div>
-				 <a href="#/edit/{{product.id}}" class="btn btn-primary" >Edit</a>
+				 <a href="#/edit/{{$index}}" class="btn btn-primary" >Edit</a>
 			</div>
 			
 		</li>
